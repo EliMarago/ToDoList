@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Tauri&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Tauri&display=swap");
+
+body {
+  background: rgb(240, 183, 146);
+  background: linear-gradient(
+    90deg,
+    rgba(240, 183, 146, 0.8926974664679582) 59%,
+    rgba(237, 230, 209, 0.6780923994038748) 59%
+  );
+}
+@media only screen and (max-width: 768px) {
+  .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .box-container {
+    width: 30rem;
+    height: 40rem;
+    background: rgba(255, 255, 255, 0.882);
+    border: solid rgb(114, 112, 112) 2px;
+    border-radius: 18px 18px 18px;
+    overflow: scroll;
+  }
+}
+.box-container {
+  width: 30rem;
+  height: 40rem;
+  background: rgba(255, 255, 255, 0.882);
+  border: solid rgb(114, 112, 112) 2px;
+  border-radius: 18px 18px 18px;
+  overflow: scroll;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.icon {
+  margin-left: 120px;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+img {
+  margin-bottom: -65px;
+  margin-left: 160px;
+}
+
+h1 {
+  margin-top: 20px;
+  text-align: center;
+  color: rgba(214, 103, 12, 0.99);
+  font-family: "Caveat", cursive;
+  background-color: rgba(243, 153, 19, 0.508);
+}
+@media only screen and (max-width: 768px) {
+  input {
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 14px;
+    color: rgb(84, 83, 83);
+    font-family: "Merriweather Sans", sans-serif;
+  }
+}
+input {
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px;
+  font-weight: 14px;
+  color: rgb(84, 83, 83);
+  font-family: "Merriweather Sans", sans-serif;
+}
+input {
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px;
+  font-weight: 14px;
+  color: rgb(84, 83, 83);
+  font-family: "Merriweather Sans", sans-serif;
+}
+@media only screen and (max-width: 768px) {
+  button {
+    border: none;
+    outline: none;
+    padding: 1px 5px;
+    background-color: rgb(234, 149, 58);
+    font-size: 16px;
+    cursor: pointer;
+    border: 40px;
+    border-radius: 20px 20px 20px 20px;
+    height: 43px;
+    width: 60px;
+    color: white;
+    font-family: "Merriweather Sans", sans-serif;
+  }
+}
+button {
+  border: none;
+  outline: none;
+  padding: 1px 5px;
+  background-color: rgb(234, 149, 58);
+  font-size: 16px;
+  cursor: pointer;
+  border: 40px;
+  border-radius: 20px 20px 20px 20px;
+  height: 43px;
+  width: 60px;
+  color: white;
+  font-family: "Merriweather Sans", sans-serif;
+}
+button:hover {
+  background-color: rgb(220, 146, 66);
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 40px;
+  padding-left: 30px;
+  background-color: rgb(222, 219, 219);
+  width: 300px;
+  margin-left: 80px;
+}
+ul li {
+  list-style: none;
+  font-size: 17px;
+  padding: 13px 10px 10px 50px;
+  user-select: none;
+  cursor: pointer;
+  font-family: "Caveat", cursive;
+  position: relative;
+  font-weight: 700;
+  font-size: 18px;
+  color: #696767;
+  right: 20px;
+  background-color: #ffcf81;
+}
+#list-container li:nth-child(odd) {
+  background-color: #ffcf81;
+}
+#list-container li:nth-child(even) {
+  background-color: #ffffff59;
+}
+ul li::before {
+  content: "";
+  position: absolute;
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  background-image: url(./images/unchecked.png);
+  background-size: cover;
+  background-position: center;
+  top: 12px;
+  left: 8px;
+}
+ul li.checked {
+  color: #8b8888;
+  text-decoration: line-through;
+}
+ul li.checked::before {
+  background-image: url(images/checked.png);
+}
+ul li span {
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+  top: 5px;
+  width: 40px;
+  height: 40px;
+  font-size: 22px;
+  color: #555;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+ul li span:hover {
+  background-color: #e6e3e3;
+}
+.icon-2 {
+  position: absolute;
+  margin-left: 430px;
+  margin-top: -70px;
+}
